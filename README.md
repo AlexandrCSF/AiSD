@@ -32,5 +32,5 @@
 [Task 6_Self_made](https://github.com/RyanGosling2008/AiSD/tree/main/Task6_Self_made)
 Тот же самый Task 6, но сделанный с помощью собственной HashMap, а не встроенной в Java.
 
-[Task 7]((https://github.com/RyanGosling2008/AiSD/tree/main/Task%207)
+[Task 7](https://github.com/RyanGosling2008/AiSD/tree/main/Task%207)
 2.Определить, является ли связанным заданный граф (рекурсивная реализация).
