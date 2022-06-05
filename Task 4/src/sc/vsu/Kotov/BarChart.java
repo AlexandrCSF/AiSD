@@ -71,46 +71,48 @@ public class BarChart extends ApplicationFrame {
 
         DefaultCategoryDataset dataset;
         //Создание произвольных массивов разных размеров
-        int[] arr5 = createRandomArray(5);
-        int[] arraycopy5 = Arrays.copyOf(arr5,5);
-        int[] arr10= createRandomArray(10);
-        int[] arraycopy10 = Arrays.copyOf(arr10,10);
-        int[] arr7= createRandomArray(7);
-        int[] arraycopy7 = Arrays.copyOf(arr7,7);
+        int[] array10000 = createRandomArray(10000);
+        int[] arraycopy10000 = createRandomArray(10000);
+        int[] arr20000= createRandomArray(20000);
+        int[] arraycopy20000 = createRandomArray(20000);
+        int[] arr50000= createRandomArray(50000);
+        int[] arraycopy50000 = createRandomArray(50000);
+
         // Получаем количество сравнений и обменов для разных массивов
-        int[] amountBubbleSort5 = getSwapAndCompareAmountBubbleSort(arr5);
-        int[] amountShakerSort5 = getSwapAndCompareAmountShakerSort(arraycopy5);
-        int[] amountBubbleSort10 = getSwapAndCompareAmountBubbleSort(arr10);
-        int[] amountShakerSort10 = getSwapAndCompareAmountShakerSort(arraycopy10);
-        int[] amountBubbleSort7 = getSwapAndCompareAmountBubbleSort(arr7);
-        int[] amountShakerSort7 = getSwapAndCompareAmountShakerSort(arraycopy7);
+
+        int[] amountBubbleSort10000 = getSwapAndCompareAmountBubbleSort(array10000);
+        int[] amountShakerSort10000 = getSwapAndCompareAmountShakerSort(arraycopy10000);
+        int[] amountBubbleSort20000 = getSwapAndCompareAmountBubbleSort(arr20000);
+        int[] amountShakerSort20000 = getSwapAndCompareAmountShakerSort(arraycopy20000);
+        int[] amountBubbleSort50000 = getSwapAndCompareAmountBubbleSort(arr50000);
+        int[] amountShakerSort50000 = getSwapAndCompareAmountShakerSort(arraycopy50000);
 
         // Создание категорий, в которые будут распределяться данные
         final String series1 = "BubbleSort";
         final String series2 = "ShakerSort";
-        final String category1 = "Сравнения, n = 5";
-        final String category2 = "Обмены, n = 5";
-        final String category3 = "Сравнения, n = 10";
-        final String category4 = "Обмены, n = 10";
-        final String category5 = "Сравнения, n = 7";
-        final String category6 = "Обмены, n = 7";
+        final String category1 = "Сравнения, n = 10000";
+        final String category2 = "Обмены, n = 10000";
+        final String category3 = "Сравнения, n = 20000";
+        final String category4 = "Обмены, n = 20000";
+        final String category5 = "Сравнения, n = 50000";
+        final String category6 = "Обмены, n = 50000";
 
         dataset = new DefaultCategoryDataset();
         //Добавление данных в датасет
-        dataset.addValue(amountBubbleSort5[0], series1, category1);
-        dataset.addValue(amountBubbleSort5[1], series1, category2);
-        dataset.addValue(amountShakerSort5[0], series2, category1);
-        dataset.addValue(amountShakerSort5[1], series2, category2);
+        dataset.addValue(amountBubbleSort10000[0], series1, category1);
+        dataset.addValue(amountBubbleSort10000[1], series1, category2);
+        dataset.addValue(amountShakerSort10000[0], series2, category1);
+        dataset.addValue(amountShakerSort10000[1], series2, category2);
 
-        dataset.addValue(amountBubbleSort10[0],series1,category3);
-        dataset.addValue(amountBubbleSort10[1],series1,category4);
-        dataset.addValue(amountShakerSort10[0],series2,category3);
-        dataset.addValue(amountShakerSort10[1],series2,category4);
+        dataset.addValue(amountBubbleSort20000[0],series1,category3);
+        dataset.addValue(amountBubbleSort20000[1],series1,category4);
+        dataset.addValue(amountShakerSort20000[0],series2,category3);
+        dataset.addValue(amountShakerSort20000[1],series2,category4);
 
-        dataset.addValue(amountBubbleSort7[0],series1,category5);
-        dataset.addValue(amountBubbleSort7[1],series1,category6);
-        dataset.addValue(amountShakerSort7[0],series2,category5);
-        dataset.addValue(amountShakerSort7[1],series2,category6);
+        dataset.addValue(amountBubbleSort50000[0],series1,category5);
+        dataset.addValue(amountBubbleSort50000[1],series1,category6);
+        dataset.addValue(amountShakerSort50000[0],series2,category5);
+        dataset.addValue(amountShakerSort50000[1],series2,category6);
 
 
         return dataset;

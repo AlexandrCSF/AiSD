@@ -2,6 +2,9 @@ package sc.vsu.Kotov;
 
 import org.jfree.ui.RefineryUtilities;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 
 public class Main {
     public static void main(final String[] args) {
@@ -12,8 +15,7 @@ public class Main {
         demo.setVisible(true);
 
         SwingUtils.setDefaultFont("Microsoft Sans Serif", 18);
-        //Окно для описания графиков
-        new MainFrame().setVisible(true);
+
 
     }
 }
