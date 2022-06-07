@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Task 1/Task 1.iml" filepath="$PROJECT_DIR$/Task 1/Task 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task 1/src/Task 11.iml" filepath="$PROJECT_DIR$/Task 1/src/Task 11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task 2/Task 2.iml" filepath="$PROJECT_DIR$/Task 2/Task 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task 3/src/Task 3.iml" filepath="$PROJECT_DIR$/Task 3/src/Task 3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task 3 (2)/Task 3 (2).iml" filepath="$PROJECT_DIR$/Task 3 (2)/Task 3 (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task 3 (2)/src/Task 3 (2)1.iml" filepath="$PROJECT_DIR$/Task 3 (2)/src/Task 3 (2)1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task 3/Task 31.iml" filepath="$PROJECT_DIR$/Task 3/Task 31.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task 4/Task 4.iml" filepath="$PROJECT_DIR$/Task 4/Task 4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task 5/Task 5.iml" filepath="$PROJECT_DIR$/Task 5/Task 5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task6/Task6.iml" filepath="$PROJECT_DIR$/Task6/Task6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task6_Self_made/Task6_Self_made.iml" filepath="$PROJECT_DIR$/Task6_Self_made/Task6_Self_made.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task7/Task7.iml" filepath="$PROJECT_DIR$/Task7/Task7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/aisd-2sem.iml" filepath="$PROJECT_DIR$/.idea/aisd-2sem.iml" />
+    </modules>
+  </component>
+</project>
